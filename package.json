@@ -1,16 +1,15 @@
 {
   "name": "publicendpoint",
   "version": "1.0.0",
-  "description": "",
+  "description": "Secure transmission server for encrypting and decrypting data",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "base64-js": "^1.5.1",
-    "crypto": "^1.0.1",
     "express": "^4.21.2"
   }
 }
